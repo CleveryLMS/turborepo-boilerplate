@@ -1,0 +1,25 @@
+.filepond-entregableuploader.filepond--root .filepond--drop-label {
+  font-weight: bold;
+  font-size: 21px;
+
+  border-radius: 12px;
+
+  color: var(--chakra-colors-black);
+  background-color: var(--chakra-colors-gray_3);
+}
+
+.filepond-entregableuploader.filepond--root .filepond--label-action {
+  font-weight: 500;
+  font-size: 16px;
+
+  color: var(--chakra-colors-gray_3);
+}
+
+.filepond-entregableuploader.filepond--root .filepond--panel-root {
+  background-color: transparent;
+  border: 2px dashed var(--chakra-colors-gray_3);
+}
+
+.filepond--credits {
+  display: none;
+}

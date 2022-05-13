@@ -1,0 +1,15 @@
+.ql-toolbar.ql-snow {
+  background-color: var(--chakra-colors-gray_1);
+  border-bottom: none !important;
+  border-top: none !important;
+  border-radius: 12px 12px 0 0;
+}
+
+.ql-toolbar.ql-snow + .ql-container.ql-snow {
+  min-height: 195px;
+  height: fit-content;
+  border-radius: 8px;
+  margin: 10px;
+  background-color: var(--chakra-colors-white);
+  border: 1px solid var(--chakra-colors-white);
+}

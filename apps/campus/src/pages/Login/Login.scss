@@ -1,0 +1,111 @@
+.Login {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+}
+
+.body-left,
+.body-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.body-left {
+  background: radial-gradient(147.43% 145.3% at 4.69% 3.84%, #0b7fea 0%, #32ceff 100%);
+}
+
+.body-right {
+  background: var(--chakra-colors-gray_1);
+}
+
+.left-container {
+  color: var(--chakra-colors-white);
+
+  margin: 0px 20px 40px 20px;
+  padding: 0px 60px;
+
+  text-align: center;
+}
+
+.left-container > .title {
+  font-weight: 900;
+  font-size: 56px;
+}
+
+.left-container > .subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  margin-top: 42px;
+  margin-bottom: 56px;
+}
+
+.left-container > .text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.right-container {
+  color: #210a39;
+
+  margin: 0px 20px 40px 20px;
+}
+
+.right-container > .title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 66.31px;
+}
+
+.right-container > .subtitle {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.84px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.login-form {
+  background: #ffffff;
+  box-shadow: 0px 9px 32px rgba(19, 19, 64, 0.09);
+  border-radius: 15px;
+  width: 657px;
+  height: fit-content;
+  padding: 31px;
+}
+
+.login-button {
+  font-style: normal;
+  font-weight: bold;
+  width: 252px;
+  height: 51px;
+  color: var(--chakra-colors-white);
+  background: #21a5fc;
+  border-radius: 12px;
+}
+
+.login-input {
+  background: var(--chakra-colors-gray_1);
+
+  /* gray 2 */
+  border: 1px solid #dce1ea;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  width: 100%;
+  padding: 12.5px;
+}
+
+.login-input::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+
+  color: #c7cedc;
+}

@@ -1,0 +1,22 @@
+.steps-form {
+  font-style: normal !important;
+
+  min-width: 350px !important;
+  width: 40%;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.steps-form--form-control {
+  width: 100% !important;
+}
+
+.steps-form--form-control--label {
+  font-weight: bold !important;
+  font-size: 13px !important;
+  line-height: 15px !important;
+
+  color: var(--chakra-colors-gray_3) !important;
+}

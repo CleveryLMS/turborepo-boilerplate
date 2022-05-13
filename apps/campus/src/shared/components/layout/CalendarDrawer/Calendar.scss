@@ -1,0 +1,92 @@
+.calendar {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--chakra-colors-gray_3);
+  border-radius: 14px;
+  overflow: hidden;
+  min-width: 360px;
+}
+
+@media (max-width: 480px) {
+  .calendar {
+    min-width: 280px;
+  }
+}
+@media (max-width: 320px) {
+  .calendar {
+    min-width: 200px;
+  }
+}
+.calendar--head {
+}
+
+.calendar--body {
+}
+
+.calendar--body--cell {
+  width: 100%;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.calendar--body--cell__other-month {
+  background-color: var(--chakra-colors-gray_3);
+}
+
+.calendar--body--day {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 34px;
+  height: 34px;
+
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+
+  padding: 8px;
+
+  transition: all 0.125s ease;
+}
+
+.calendar--body--day:hover {
+  background-color: rgba(38, 200, 171, 0.4);
+}
+
+.calendar--body--day__today {
+  background-color: var(--chakra-colors-gray_3);
+}
+
+.calendar--body--day__other-month,
+.calendar--body--day__other-month:hover {
+  color: var(--chakra-colors-gray_6);
+  background-color: unset;
+}
+
+.calendar--body--day__with-events {
+  // color: var(--chakra-colors-primary);
+}
+
+.calendar--body--day__selected,
+.calendar--body--day__selected:hover {
+  font-weight: bold;
+  background-color: var(--chakra-colors-primary);
+  color: var(--chakra-colors-white);
+}
+
+.calendar--body--day--event-dot {
+  min-width: 4px;
+  min-height: 4px;
+  border-radius: 50%;
+  background-color: var(--chakra-colors-primary);
+}
+
+.calendar--body--day__selected .calendar--body--day--event-dot {
+  background-color: var(--chakra-colors-white);
+}

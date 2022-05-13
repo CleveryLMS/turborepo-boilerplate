@@ -1,0 +1,43 @@
+.filepond-wrapper {
+  max-height: 80px;
+  min-height: 70px;
+
+  min-width: 240px;
+}
+
+.filepond-avataruploader.filepond--root {
+  margin-bottom: 0px;
+  max-height: 80px;
+  min-height: 70px;
+
+  min-width: 240px;
+}
+
+.filepond-avataruploader.filepond--root .filepond--drop-label {
+  max-height: 80px;
+  min-height: 70px;
+
+  min-width: 240px;
+}
+
+.filepond-avataruploader.filepond--root .filepond--drop-label label {
+  color: var(--chakra-colors-white);
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  cursor: pointer;
+}
+
+.filepond-avataruploader.filepond--root .filepond--panel-root {
+  color: var(--chakra-colors-white);
+  background-color: var(--chakra-colors-gray_1);
+  border: none;
+
+  max-height: 80px;
+  min-height: 70px;
+}
+
+.filepond--credits {
+  display: none;
+}
