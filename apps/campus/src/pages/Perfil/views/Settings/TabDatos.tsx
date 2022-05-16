@@ -1,7 +1,6 @@
 import { Flex, Box } from '@chakra-ui/react';
 
 import { PerfilSelect } from '../../components';
-import { Country, State } from 'country-state-city';
 import { getEstados, getPaises, IEstado, IPais } from 'data';
 import { useEffect, useState } from 'react';
 
