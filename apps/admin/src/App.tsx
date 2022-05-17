@@ -1,13 +1,10 @@
 import { ChakraProvider } from '@chakra-ui/react';
 
-import { Button } from '@clevery/ui';
-
 const App = () => {
   return (
     <ChakraProvider>
-      <div>Hola mundo</div>
+      <div>Hola mundo | Admin</div>
 
-      <Button text="AAAH" />
     </ChakraProvider>
   );
 };
